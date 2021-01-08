@@ -1,0 +1,48 @@
+*{
+     overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  display: flex;
+}
+
+.left_box{
+  width: 30%;
+}
+
+.right_box{
+  width: 70%;
+}
+/* Gif Animation */
+
+#loading{
+  text-align: center;
+  background: url('assest/img/Spinner.gif');
+  height: 150px;
+}
+
+.filter_data{
+  display: flex;
+    -webkit-flex-wrap: wrap;          /* Safari etc. */
+  -ms-flex-wrap    : wrap;          /* IE10        */
+  flex-wrap        : wrap;
+}
+.img-responsive{
+  height: 100px;
+}
+.phone_box{
+  border:1px solid #ccc;
+  border-radius:5px;
+  width: 25%;
+  height: auto;
+  margin:15px;
+  padding: 15px;
+}
+.img_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
